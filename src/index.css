@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@900&display=swap');
+
+*::selection{
+    color: #ffffff !important;
+    background-color: #6c7fec !important;
+}
+
+*{
+    outline: none;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #9c9c9c5e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #63899b5e;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.glass{
+    background-color: rgba(211, 211, 211, 0.15);  
+    backdrop-filter: blur(10px);
+}
+
+.input-glass{
+
+    background-color: rgba(255, 255, 255, 0.15);  
+    backdrop-filter: blur(5px);
+}
+
+.book-card-glass{
+  background-color: rgba(221, 221, 221, 0.24);  
+    backdrop-filter: blur(5px);
+}
